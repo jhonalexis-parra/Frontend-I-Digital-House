@@ -1,0 +1,69 @@
+/* Establecer tipo de letra para el documeto */
+body{
+    font-family: Arial, sans-serif;
+    margin: 0 0;
+}
+
+/* Centrar main*/ 
+main{
+    max-width: 80%;
+    margin: 0 auto;
+}
+/* Header y main */
+
+header{
+    background-color: #ddd;
+    margin-bottom: 60px;
+}
+
+header img {
+    display: block;
+    margin: auto auto;
+    
+}
+
+h1,h2 {
+
+    background-color: #BFBFBF;
+}
+header h1 {
+    text-align: center;
+    letter-spacing: 7px;
+    word-spacing: 28px;
+    color: rgb(29, 46, 119);
+}
+
+h2 {
+    color: #632423;
+    font-size: 18px;
+    word-spacing: 10px;
+    letter-spacing: 6px;
+}
+
+.item-detail{
+    font-style: italic;
+    font-weight: bold;
+}
+
+section { 
+    margin-top: 30px;
+}
+
+/* Footer */
+
+footer{
+    background-color: rgb(17, 39, 82);
+    color: seashell;
+    text-align: center;
+    margin-top: 60px;
+}
+
+footer p{
+    margin: auto;
+    font-size: 18px;
+}
+
+footer img{
+    width: 12px;
+    height: 12px;
+}
