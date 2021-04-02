@@ -1,6 +1,6 @@
 /* Establecer tipo de letra para el documeto */
 body{
-    font-family: Arial, sans-serif;
+    font-family: Calibri, Arial, Helvetica, sans-serif;
     margin: 0 0;
 }
 
@@ -52,7 +52,7 @@ section {
 /* Footer */
 
 footer{
-    background-color: rgb(17, 39, 82);
+    background-color: #1F497D;
     color: seashell;
     text-align: center;
     margin-top: 60px;
@@ -60,10 +60,10 @@ footer{
 
 footer p{
     margin: auto;
-    font-size: 18px;
+    font-size: 24px;
 }
 
 footer img{
-    width: 12px;
-    height: 12px;
+    width: 17px;
+    height: 17px;
 }

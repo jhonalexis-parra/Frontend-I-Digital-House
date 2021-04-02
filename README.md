@@ -1,6 +1,6 @@
 # Proyectos curso Frontend I - Digital House - Certified Tech Developer
 
-Primera curso de frontend del programa Certified Tech Developer de Digital House, dirigo por @Gabriela Mancini y @Joni.
+Primera curso de frontend del programa Certified Tech Developer de Digital House, dirigo por [@Gabriela Mancini](https://github.com/gabimancini) y @Joni.
 
 ## Proyectos
 
