@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: white;
+    position: relative;
+}
+
+.cabecera{
+    background: #1CD1B0;
+    width: 1920px;
+    height: 61px;
+    padding: 0 0 0 62.57px;
+    position: relative;
+}
+
+.cabecera span{
+    font-size: 48px;    
+}
+
+header{
+    background: #00669F;
+    /*background-color: red;*/
+    width: 1920px;
+    height: 162px;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+    position: sticky;
+    top: 0;
+    z-index: 99;
+}
+
+h1 {
+    color: #FFFFFF;
+    font-size: 72px;
+    padding: 39px 0 0 62.57px;
+
+}
+
+.card {
+    position: relative;  
+    width: 700px;
+    height: 1127px;
+    margin: 70px 610px 0;
+    
+    
+}
+
+.background{
+    position: relative;
+    width: 700px;
+    height: 407px;
+    border-radius: 40px 40px 0 0;
+    
+}
+
+.background.batman{
+    /*background-color: red;*/
+    background-size: 177%;
+    background-position: 75% 50%;
+    background-image: url("../img/bg-batman.jpg");
+}
+
+.background.wonderwoman{
+    /*background-color: red;*/
+    background-size: 176%;
+    background-position: 31% 26%;
+    background-image: url("../img/bg-wonderw.jpg");
+}
+
+.background.superman{
+    /*background-color: red;*/
+    background-size: 137%;
+    background-position: 44% ;
+    background-image: url("../img/bg-superman.jpg");
+}
+
+
+.information{
+    /* text-align: center; */
+    width: 700px;
+    height: 720px;
+    background-color: #F3F3F3;
+    position: relative;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.photo{
+    width: 300px;
+    height: 300px;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    position: absolute;
+    left: 203px;
+    top: -155px;
+
+}
+
+.photo.batmanpicture{
+    background-position-x: 57%;
+    background-size: 289.4%;
+    background-image: url("../img/batman.jpg");
+}
+
+.photo.wonderwomanpicture{
+    background-size: 109.4%;
+    background-position-x: 67%;
+    background-image: url("../img/wonderw.jpg");
+}
+
+.photo.supermanpicture{
+    background-size: 148.4%;
+    background-position-x: 46%;
+    background-image: url("../img/superman.jpg");
+}
+
+h2{
+    font-size: 64px;
+    margin: 0px 0;
+    padding: 160px 0 0 0;
+    text-align: center;
+}
+
+p{
+    font-size: 36px;
+    margin: 27px 38px 75px;
+}
+
+a { 
+    display: block;
+    text-align: center;
+    border:#00669F solid 1px ;
+    width: 300px;
+    height: 95px;
+    font-size: 36px;
+    background-color: #00669F;
+    color: white;
+    margin: 0 200px 0;
+    text-decoration: none;
+    padding: 25px 0 0;
+}
+
+a.verwonder {
+    margin: 120px 200px 0;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+i.fas.fa-heart {
+    color: #CC2424;
+    font-size: 47px;
+    position: absolute;
+    z-index: 3;
+    margin: 4.35% 0 0 7.75%;
+}
+
+footer{
+    width: 1920px;
+    height: 162px;
+    background-color: #00669F;
+    margin: 136px 0 0;
+}
+p.rights{
+    color: white;
+    padding:60px 0 0;
+    font-size: 36px;
+    text-align: center;
+    position: relative;
+}
+
+.fas.fa-plus-circle{
+    color: #00669F;
+    font-size: 120px;
+    position: sticky;
+    bottom: 450px;
+    left: 1700px;
+}
