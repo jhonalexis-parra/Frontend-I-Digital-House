@@ -8,7 +8,7 @@ Los proyectos desarrollados durante le curso se alojan en la carpeta raíz de es
 
 1. **ProyectoReceta:** se construye una receta para identificar las etiquetas principales de HTML, su importancia y nivel semantico. Link: [Receta Pie De Limón](https://jhonalexis-parra.github.io/Frontend-I-Digital-House/ProyectoReceta/).
 2. **BatmanCV:** se construye la hoja de vida de batman para aplicar los primeros estilos css visto en el curso. Link: [BatmanCV](https://jhonalexis-parra.github.io/Frontend-I-Digital-House/BatmanCV/).
-
+3. **CardSuperHeroes:** se construye un landing con información de diferentes super heroes, se práctica el modelo de cajas, position, margin, padding y z-index. La medida del landing es de 1920 x 4200 pixeles. Link: [CardSuperHeroes](https://jhonalexis-parra.github.io/Frontend-I-Digital-House/CardSuperHeroes/)
 
 ### Lenguajes
 
