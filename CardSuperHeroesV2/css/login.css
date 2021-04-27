@@ -1,0 +1,49 @@
+.loginForm { 
+    height: 428px;
+    width: 620px;
+    margin: 230px 410px 294px 410px;
+}
+h1 {
+    font-size: 72px;
+    font-weight: 700;
+    margin-bottom: 55px;
+}
+
+input {
+    border: 1.53407px solid #000000;
+    height: 60px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+input::placeholder{
+    color: black;
+    font-size: 20px;
+    font-weight: 400;
+    padding-left: 27px;
+}
+
+button{
+    background-color: var( --color-green-top);
+    border-bottom: none;
+    border-radius: 23.011px;
+    font-size: 24px;
+    font-weight: 700;
+    height: 54px;
+    margin-bottom: 20px;
+    margin-top: 39px;
+    width: 100%;
+}
+
+
+.registro{
+    color: #222222;
+    font-size: 21,5px;
+    font-weight: 400;
+    text-align: center;
+
+}
+
+.registro a{
+    text-decoration: none;
+}
+

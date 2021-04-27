@@ -1,0 +1,110 @@
+header .cabecera p{
+    margin-left : 10px;
+}
+
+.back{
+    background-image: url("../img/bg_1.png");
+    height: 787px;
+    width: 1440px;
+
+}
+
+.card {
+    background-color: var(--color-background-cards);
+    border-radius: 45px;
+    height: 456px;
+    margin:  0 447px;
+    position: relative;
+    top: 215px;
+    width: 546px;
+}
+
+.corazon{
+    left:30px;
+    position: absolute;
+    top: 52px;
+}
+
+.photo{
+    background-image: url("../img/photo-harley.svg");
+    background-repeat: no-repeat;
+    background-size: 101%;
+    border-radius: 50%;
+    height: 159px;
+    left: 199px;
+    position: absolute;
+    top: -98px;
+    width: 159px;
+}
+
+h2{
+    color: #2C0187;
+    font-size: 32px;
+    font-weight: 400;
+    left: 184px;
+    position: absolute;
+    text-decoration: underline;
+    top: 71px;
+}
+
+.descripcion {
+    font-size: 17px;
+    font-weight: 400;
+    height: 158px;
+    left: 23px;
+    position: absolute;
+    top: 121px;
+    width: 500px;
+}
+
+span {
+    color: #2C0187;
+}
+
+.homeVolver{
+    background-color: #2C0187;
+    border-radius: 0px 0px 45px 45px;
+    height: 87px;
+    padding-top: 30px;
+    position: absolute;
+    text-align: center;
+    top: 369px;
+    width: 547px;
+}
+
+.homeVolver a{
+    color: var(--color-text-header);
+    text-decoration: none;
+    
+}
+
+.bate{
+    height: 60px;
+    left: 152px;
+    position: absolute;
+    top:294px;
+    width: 60px;
+}
+
+.pistola{
+    height: 60px;
+    left: 245.72px;
+    position: absolute;
+    top:294px;
+    width: 60px;
+}
+
+.bazuca{
+    height: 60px;
+    left: 332px;
+    position: absolute;
+    top:294px;
+    width: 60px;
+}
+/* 
+.card{
+    height: 456px;
+    margin: 215px 447px 116px 450px;
+    width: 546px;
+} */
+

@@ -1,0 +1,43 @@
+.contactForm { 
+    height: 634px;
+    width: 647px;
+    margin: 126px 385px 192px 410px;
+}
+
+input {
+    border: 1.53407px solid #000000;
+    height: 60px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+input::placeholder{
+    color: black;
+    font-size: 20px;
+    font-weight: 400;
+    padding-left: 9px;
+}
+
+textarea{
+    height: 251px;
+    width: 100%;
+}
+
+button{
+    background-color: var( --color-green-top);
+    border-color: var( --color-green-top);
+    border-radius: 23.011px;
+    display: inline-block;;
+    font-size: 24px;
+    font-weight: 700;
+    height: 54px;
+    margin-bottom: 20px;
+    margin-top: 39px;
+    width: 49%;
+}
+
+#resetear{
+    background-color: var(--color-text-resetear);
+    border-color: var(--color-text-resetear);
+    color: var( --color-text-header);
+}

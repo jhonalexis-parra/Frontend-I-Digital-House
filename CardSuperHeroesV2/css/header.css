@@ -1,7 +1,71 @@
-:root{
+
+.descuentos{
+    background-color: var(--color-green-top);
+    width: 1440px;
+    height: 23px;
+    vertical-align: middle;
     
 }
 
+.descuentos p{
+    color: var(---color-text-top);
+    font-size: 15px;
+    font-weight: 400;
+    margin: 0 0  0 20px;
+    padding-top: 2px;
+}
+
 header{
+    position: sticky;
+    top:0;
+    z-index: 99;
+}
+
+header .cabecera{
+    background-color: var(--color-blue-document);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    height: 80px;
+    position: relative;
+    width: 1440px;
 
 }
+
+header .cabecera img{
+    height: 70.06px;
+    left: 10px;
+    position: absolute;
+    top: 3.94px;
+    width: 90px;
+
+}
+
+header .cabecera p{
+    color: var(--color-text-header);
+    font-size: 30px;
+    font-weight: 400;
+    margin-left: 129px;
+    margin-top: 19px;
+    position: absolute;
+}
+
+header nav{
+    background-color: var(--color-background-nav);
+    height: 40px;
+    width: 1440px;
+}
+
+header nav ul{
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 1140px;
+    padding-top: 10px;
+    
+}
+header nav il a{
+    color: var(--color-text-header);
+    
+    padding-left: 20px;
+    text-decoration: none;
+    
+}
+

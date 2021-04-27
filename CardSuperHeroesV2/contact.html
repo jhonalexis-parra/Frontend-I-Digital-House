@@ -4,32 +4,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Contact</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/contact.css">
 </head>
 <body>
+    <div class="descuentos">
+        <p>
+            20% de descuento en todos los productos!
+        </p>
+    </div>
     <header>
-        <div>
-            <p>
-                20% de descuento en todos los productos!
-            </p>
-        </div>
-        <div>
+        <div class="cabecera">
             <img src="img/logo.svg" alt="logo">
-            <p>Super Heroes Cards Shop</p>
+            <p>Nombre Tienda</p>
         </div>
-        <nav>
-            <ul>
-                <il><a href="">Contacto</a></il>
-                <il><a href="">Registrarme</a></il>
-                <il><a href="">Ingresar</a></il>
-            </ul>
-        </nav>
     </header>
 
     <main>
 
-
-        Acá va el contenido
+        <section>
+            <div class="contactForm">
+                <h1>Contacto</h1>
+                <form action="index.html">
+                    <input type="text" name="nomApellido" id="nomApellido" placeholder="Nombre y Apellido">
+                    <input type="email" name="correo" id="correo" placeholder="Correo Electrónico">
+                    <textarea name="comentario" id="comentario"></textarea>
+                    <button type="reset" id="resetear">Resetear</button>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </section>
 
 
     </main>
