@@ -1,0 +1,19 @@
+.container {
+    background-color: red;
+    height: 533px;
+    margin: 175px 210px 204px 210px;
+    position: relative;
+    width: 1020px;
+}
+
+.card{
+    background-color: blue;
+    display: inline-block;
+    height: 533px;
+    position: relative;
+    width: 300px;
+}
+
+.card.center{
+    margin: 0 56px;
+}
